@@ -1,0 +1,5 @@
+#ifndef DOMULAR_H
+#define DOMULAR_H
+#define D_PERMIT_READ   0x00000001
+#define D_PERMIT_WRITE  0x00000002
+#endif // DOMULAR_H

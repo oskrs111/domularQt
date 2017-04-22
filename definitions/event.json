@@ -1,0 +1,40 @@
+{
+  "jsonrpc": "2.0",
+  "method": "event",
+  "params": {
+    "eventSourceAlias": "asciiAlias",
+    "eventName": "asciiName",
+    "eventData": {"eventData_Object":"dependsOnEventName"},
+    "eventTimestamp":"asciiTimestamp"
+  },
+  "id": 1
+}
+
+{"jsonrpc": "2.0", "result": 200, "id": 1}
+
+
+//EventName list
+"stateUpdate"
+"attributeEvent"
+"errorNotify"
+"debugLog"
+
+//"eventDataObject::stateUpdate"
+{
+    "deviceSourceAlias": "asciiAlias",
+    "deviceState":    
+     {
+        "stateNumber":1, 
+        "stateAlias":"asciiAlias"
+     }
+}
+
+//"eventDataObject::attributeUpdate"
+{
+    "deviceSourceAlias": "asciiAlias",
+    "deviceAttribute":    
+     {
+		"atrributeName":"asciiName",            
+		"attributeValue":"asciiValue"
+     }
+}

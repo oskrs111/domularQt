@@ -1,0 +1,80 @@
+{
+"jsonrpc": "2.0", 
+"result": {
+    "sourceAlias": "asciiAlias",
+    "sourceDevices":
+    [
+      {
+        "deviceSourceAlias": "asciiAlias",
+        "deviceCurrentState": 1,
+		"statePermit":"ascii_RW",
+        "deviceStates": 
+        [
+          {
+            "stateNumber":1, 
+            "stateAlias":"asciiAlias1"			
+          },
+          {
+            "stateNumber":2, 
+            "stateAlias":"asciiAlias2"			
+          },
+          {
+            "stateNumber":3, 
+            "stateAlias":"asciiAlias3"
+          }
+        ],		
+        "deviceAttributes": 
+        [
+          {
+            "atrributeName":"asciiName", 
+            "atrributeType":"asciiType",
+            "attributeValue":"asciiValue",
+			"attributePermit":"ascii_RW"
+          },
+          {
+            "atrributeName":"asciiName", 
+            "atrributeType":"asciiType",
+			"attributeValue":"asciiValue",
+            "attributePermit":"ascii_RW"
+          }
+        ]
+      },
+    {
+        "deviceSourceAlias": "asciiAlias",
+        "deviceCurrentState": 1,
+		"statePermit":"ascii_RW",
+        "deviceStates": 
+        [
+          {
+            "stateNumber":1, 
+            "stateAlias":"asciiAlias1"			
+          },
+          {
+            "stateNumber":2, 
+            "stateAlias":"asciiAlias2"			
+          },
+          {
+            "stateNumber":3, 
+            "stateAlias":"asciiAlias3"
+          }
+        ],
+        "deviceAttributes": 
+        [
+          {
+            "atrributeName":"asciiName", 
+            "atrributeType":"asciiType",
+            "attributeValue":"asciiValue",
+			"attributePermit":"ascii_RW"
+          },
+          {
+            "atrributeName":"asciiName", 
+            "atrributeType":"asciiType",
+			"attributeValue":"asciiValue",
+            "attributePermit":"ascii_RW"
+          }
+        ]
+      }    
+    ]
+  },
+"id": 1
+}
